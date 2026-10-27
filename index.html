@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- ===== METADATA & PRATINJAU TAUTAN (WhatsApp, Instagram, dll.) =====
+       Crawler pratinjau tidak menjalankan JavaScript, jadi bagian ini diedit di sini,
+       bukan di wedding-data.js. Judul dan deskripsi sudah terisi.
+       Gambar pratinjau dan alamat website BELUM diisi karena alamat final belum ada:
+       lihat blok komentar di bawah, lalu aktifkan setelah website online. -->
+  <title>The Wedding of Leo &amp; Pipit</title>
+  <meta name="description" content="Kami mengundang Anda untuk hadir dan memberikan doa restu pada pernikahan Leo &amp; Pipit, Minggu, 15 November 2026.">
+  <!-- Undangan bersifat pribadi, jadi tidak diindeks mesin pencari. Hapus baris ini jika ingin sebaliknya. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#FBF8F1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="The Wedding of Leo &amp; Pipit">
+  <meta property="og:title" content="The Wedding of Leo &amp; Pipit">
+  <meta property="og:description" content="Kami mengundang Anda untuk hadir dan memberikan doa restu pada pernikahan Leo &amp; Pipit, Minggu, 15 November 2026.">
+  <meta name="twitter:card" content="summary">
+
+  <!-- AKTIFKAN SETELAH WEBSITE ONLINE: hapus tanda komentar, ganti ALAMAT-WEBSITE dengan
+       alamat sebenarnya (mis. https://username.github.io/nama-repo), ubah twitter:card di atas
+       menjadi "summary_large_image", dan unggah assets/photos/og-image.jpg (1200×630 px, < 300 KB).
+  <link rel="canonical" href="https://ALAMAT-WEBSITE/">
+  <meta property="og:url" content="https://ALAMAT-WEBSITE/">
+  <meta property="og:image" content="https://ALAMAT-WEBSITE/assets/photos/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  -->
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Inter:wght@400;500&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <noscript>
+    <p class="noscript">Undangan ini memerlukan JavaScript. Mohon aktifkan JavaScript atau buka dengan browser lain.</p>
+  </noscript>
+
+  <!-- Ornamen floral garis tipis (dipakai berulang lewat <use>) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <style>#sprig *, #bloom * { vector-effect: non-scaling-stroke; }</style>
+    <defs>
+      <g id="bloom" fill="none" stroke-linecap="round" stroke-linejoin="round" style="stroke:var(--sprig-bloom,#B89F7E);stroke-width:1">
+        <path d="M0 0C-5-6-5-14 0-17 5-14 5-6 0 0Z"/>
+        <path d="M0 0C-5-6-5-14 0-17 5-14 5-6 0 0Z" transform="rotate(72)"/>
+        <path d="M0 0C-5-6-5-14 0-17 5-14 5-6 0 0Z" transform="rotate(144)"/>
+        <path d="M0 0C-5-6-5-14 0-17 5-14 5-6 0 0Z" transform="rotate(216)"/>
+        <path d="M0 0C-5-6-5-14 0-17 5-14 5-6 0 0Z" transform="rotate(288)"/>
+        <circle r="1.5"/>
+      </g>
+    </defs>
+    <symbol id="sprig" viewBox="0 0 100 220">
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round" style="stroke-width:1">
+        <path style="stroke:var(--sprig-stem,#B89F7E)" d="M50 216C44 170 62 140 54 100 48 70 60 44 58 18"/>
+        <path style="stroke:var(--sprig-stem,#B89F7E)" d="M49 184C38 174 30 162 27 148"/>
+        <path style="stroke:var(--sprig-stem,#B89F7E)" d="M56 128C68 120 77 109 81 96"/>
+        <g style="stroke:var(--sprig-leaf,#93A184)">
+          <path transform="translate(49.2 184) rotate(-152)" d="M0 0C8-8 22-8 30 0 22 8 8 8 0 0Z"/>
+          <path transform="translate(52.8 156) rotate(-30)"  d="M0 0C8-8 22-8 30 0 22 8 8 8 0 0Z"/>
+          <path transform="translate(55.9 128.5) rotate(-146)" d="M0 0C8-8 22-8 30 0 22 8 8 8 0 0Z"/>
+          <path transform="translate(54 100) rotate(-34) scale(.95)" d="M0 0C8-8 22-8 30 0 22 8 8 8 0 0Z"/>
+          <path transform="translate(52.8 71) rotate(-140) scale(.85)" d="M0 0C8-8 22-8 30 0 22 8 8 8 0 0Z"/>
+          <path transform="translate(56.5 44) rotate(-42) scale(.7)" d="M0 0C8-8 22-8 30 0 22 8 8 8 0 0Z"/>
+        </g>
+      </g>
+      <use href="#bloom" transform="translate(58 19) scale(.9)"/>
+      <use href="#bloom" transform="translate(81.5 94) scale(.55)"/>
+      <use href="#bloom" transform="translate(26.5 146) scale(.5)"/>
+    </symbol>
+  </svg>
+
+  <!-- ========== 1. HALAMAN PEMBUKA ========== -->
+  <header class="cover" id="cover" aria-label="Halaman pembuka undangan">
+    <div class="cover__inner">
+      <p class="cover__kicker" style="--i:0">The Wedding Of</p>
+
+      <div class="arch" style="--i:1">
+        <div class="arch__frame" aria-hidden="true"></div>
+        <div class="arch__photo" id="coverPhoto"></div>
+        <svg class="sprig sprig--l" viewBox="0 0 100 220" aria-hidden="true" focusable="false"><use href="#sprig"/></svg>
+        <svg class="sprig sprig--r" viewBox="0 0 100 220" aria-hidden="true" focusable="false"><use href="#sprig"/></svg>
+      </div>
+
+      <h1 class="cover__names" style="--i:2"><span id="coverNameA">Nama Pria</span> <span class="amp" aria-hidden="true">&amp;</span><span class="sr-only"> dan </span> <span id="coverNameB">Nama Wanita</span></h1>
+      <p class="cover__date" id="coverDate" style="--i:3"></p>
+
+      <div class="cover__guest" style="--i:4">
+        <p class="cover__to">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+        <p class="cover__guestname" id="guestName" hidden></p>
+        <p class="cover__invite">Anda diundang untuk menghadiri pernikahan kami.</p>
+      </div>
+
+      <button class="btn btn--solid" id="openBtn" type="button" style="--i:5">Buka Undangan</button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ========== 2. SALAM & PENGANTAR ========== -->
+    <section class="section" id="pembuka" aria-labelledby="pembukaTitle">
+      <div class="wrap wrap--narrow greet">
+        <h2 class="sr-only" id="pembukaTitle">Salam pembuka</h2>
+        <svg class="sprig sprig--mark" viewBox="0 0 100 220" aria-hidden="true" focusable="false" data-reveal><use href="#sprig"/></svg>
+        <p class="greet__salutation" id="greetSalutation" data-reveal></p>
+        <p class="greet__text" id="greetText" data-reveal></p>
+        <figure class="quote" id="quote" data-reveal>
+          <blockquote class="quote__text" id="quoteText"></blockquote>
+          <figcaption class="quote__source" id="quoteSource"></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ========== 3. MEMPELAI ========== -->
+    <section class="section section--paper" id="mempelai" aria-labelledby="mempelaiTitle">
+      <div class="wrap">
+        <div class="head" data-reveal>
+          <h2 class="title" id="mempelaiTitle">Mempelai</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </div>
+        <div class="couple" id="couple"></div>
+      </div>
+    </section>
+
+    <!-- ========== 4. DETAIL ACARA ========== -->
+    <section class="section" id="acara" aria-labelledby="acaraTitle">
+      <div class="wrap">
+        <div class="head" data-reveal>
+          <h2 class="title" id="acaraTitle">Acara</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </div>
+        <div class="events" id="events"></div>
+      </div>
+    </section>
+
+    <!-- ========== 5. HITUNG MUNDUR ========== -->
+    <section class="section section--sage" id="hitung-mundur" aria-labelledby="cdTitle">
+      <div class="wrap wrap--narrow">
+        <div class="head" data-reveal>
+          <h2 class="title" id="cdTitle">Menuju hari bahagia</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </div>
+        <div class="cd" id="cdGrid" role="timer" aria-label="Hitung mundur menuju acara" data-reveal>
+          <div class="cd__unit"><span class="cd__num" id="cdD">00</span><span class="cd__label">hari</span></div>
+          <div class="cd__unit"><span class="cd__num" id="cdH">00</span><span class="cd__label">jam</span></div>
+          <div class="cd__unit"><span class="cd__num" id="cdM">00</span><span class="cd__label">menit</span></div>
+          <div class="cd__unit"><span class="cd__num" id="cdS">00</span><span class="cd__label">detik</span></div>
+        </div>
+        <p class="cd__msg" id="cdMsg" role="status" hidden></p>
+      </div>
+    </section>
+
+    <!-- ========== 6. GALERI ========== -->
+    <section class="section" id="galeri" aria-labelledby="galeriTitle">
+      <div class="wrap">
+        <div class="head" data-reveal>
+          <h2 class="title" id="galeriTitle">Galeri</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </div>
+        <div class="gallery" id="gallery" data-reveal></div>
+      </div>
+    </section>
+
+    <!-- ========== 7. KISAH CINTA ========== -->
+    <section class="section section--paper" id="kisah" aria-labelledby="kisahTitle">
+      <div class="wrap wrap--timeline">
+        <div class="head" data-reveal>
+          <h2 class="title" id="kisahTitle">Kisah kami</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </div>
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- ========== 8. LOKASI ========== -->
+    <section class="section" id="lokasi" aria-labelledby="lokasiTitle">
+      <div class="wrap wrap--medium">
+        <div class="head" data-reveal>
+          <h2 class="title" id="lokasiTitle">Lokasi</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </div>
+        <div class="place" id="place"></div>
+      </div>
+    </section>
+
+    <!-- ========== 9. RSVP ========== -->
+    <section class="section section--paper" id="rsvp" aria-labelledby="rsvpTitle">
+      <div class="wrap wrap--form">
+        <div class="head" data-reveal>
+          <h2 class="title" id="rsvpTitle">Konfirmasi kehadiran</h2>
+          <div class="rule" aria-hidden="true"></div>
+          <p class="head__sub">Kehadiran Anda sangat berarti bagi kami. Mohon konfirmasi agar kami dapat menyiapkan segalanya dengan baik.</p>
+        </div>
+
+        <form class="form" id="rsvpForm" novalidate data-reveal>
+          <div class="field">
+            <label for="rsvpName">Nama</label>
+            <input class="input" id="rsvpName" type="text" maxlength="80" autocomplete="name" required aria-describedby="rsvpNameErr">
+            <p class="field__error" id="rsvpNameErr" hidden></p>
+          </div>
+
+          <fieldset class="field" aria-describedby="rsvpStatusErr">
+            <legend>Kehadiran</legend>
+            <div class="choice">
+              <label class="choice__opt"><input type="radio" name="status" value="hadir"><span>Hadir</span></label>
+              <label class="choice__opt"><input type="radio" name="status" value="tidak"><span>Tidak Hadir</span></label>
+              <label class="choice__opt"><input type="radio" name="status" value="ragu"><span>Belum Dapat Memastikan</span></label>
+            </div>
+            <p class="field__error" id="rsvpStatusErr" hidden></p>
+          </fieldset>
+
+          <div class="field">
+            <label for="rsvpCount">Jumlah orang yang hadir</label>
+            <select class="input input--select" id="rsvpCount" aria-describedby="rsvpCountErr"></select>
+            <p class="field__error" id="rsvpCountErr" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="rsvpMsg">Pesan <span class="field__opt">(opsional)</span></label>
+            <textarea class="input" id="rsvpMsg" rows="3" maxlength="500" aria-describedby="rsvpMsgErr"></textarea>
+            <p class="field__error" id="rsvpMsgErr" hidden></p>
+          </div>
+
+          <input class="hp" type="text" id="rsvpHp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <button class="btn btn--solid btn--block" id="rsvpSubmit" type="submit">Konfirmasi Kehadiran</button>
+          <p class="form__status" id="rsvpStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="done" id="rsvpDone" hidden>
+          <p class="done__title" id="rsvpDoneTitle"></p>
+          <p class="done__text" id="rsvpDoneText"></p>
+          <button class="link link--btn" id="rsvpAgain" type="button">Ubah atau kirim konfirmasi lain</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 10. UCAPAN & DOA ========== -->
+    <section class="section" id="ucapan" aria-labelledby="ucapanTitle">
+      <div class="wrap wrap--form">
+        <div class="head" data-reveal>
+          <h2 class="title" id="ucapanTitle">Ucapan dan doa</h2>
+          <div class="rule" aria-hidden="true"></div>
+          <p class="head__sub">Tuliskan ucapan dan doa untuk kedua mempelai.</p>
+        </div>
+
+        <form class="form" id="wishForm" novalidate data-reveal>
+          <div class="field">
+            <label for="wishName">Nama</label>
+            <input class="input" id="wishName" type="text" maxlength="80" autocomplete="name" required aria-describedby="wishNameErr">
+            <p class="field__error" id="wishNameErr" hidden></p>
+          </div>
+          <div class="field">
+            <label for="wishMsg">Ucapan dan doa</label>
+            <textarea class="input" id="wishMsg" rows="4" maxlength="300" required aria-describedby="wishMsgErr wishCount"></textarea>
+            <p class="field__count" id="wishCount" aria-hidden="true">0 / 300</p>
+            <p class="field__error" id="wishMsgErr" hidden></p>
+          </div>
+          <input class="hp" type="text" id="wishHp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn--solid btn--block" id="wishSubmit" type="submit">Kirim Ucapan</button>
+          <p class="form__status" id="wishStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="wishes" id="wishes" role="region" aria-label="Daftar ucapan" tabindex="0">
+          <p class="wishes__note" id="wishNote"></p>
+          <ul class="wishes__list" id="wishList"></ul>
+        </div>
+        <p class="wishes__more" id="wishRetryWrap" hidden><button class="link link--btn" id="wishRetry" type="button">Muat ulang ucapan</button></p>
+      </div>
+    </section>
+
+    <!-- ========== 11. PENUTUP ========== -->
+    <section class="section section--champagne closing" id="penutup" aria-labelledby="penutupTitle">
+      <div class="wrap wrap--narrow">
+        <h2 class="sr-only" id="penutupTitle">Penutup</h2>
+        <svg class="sprig sprig--mark" viewBox="0 0 100 220" aria-hidden="true" focusable="false" data-reveal><use href="#sprig"/></svg>
+        <p class="closing__text" id="closingText" data-reveal></p>
+        <p class="closing__signoff" id="closingSignoff" data-reveal></p>
+        <p class="closing__names" id="closingNames" data-reveal></p>
+        <p class="closing__date" id="closingDate" data-reveal></p>
+        <div class="closing__actions" data-reveal>
+          <button class="btn btn--line" id="shareBtn" type="button">Bagikan Undangan</button>
+          <p class="form__status" id="shareStatus" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Tombol melayang: menu & musik -->
+  <div class="dock" id="dock" hidden>
+    <button class="dock__btn" id="menuBtn" type="button" aria-haspopup="dialog">Menu</button>
+    <button class="dock__btn dock__btn--icon" id="musicBtn" type="button" aria-pressed="false" aria-label="Putar musik latar" hidden>
+      <svg class="icon icon-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>
+      <svg class="icon icon-pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 5.5h3.2v13H7.5zM13.3 5.5h3.2v13h-3.2z" fill="currentColor"/></svg>
+    </button>
+  </div>
+
+  <dialog class="menu" id="menu" aria-label="Navigasi bagian undangan">
+    <nav class="menu__nav" aria-label="Bagian undangan"><ul id="menuList"></ul></nav>
+    <button class="btn btn--line menu__close" id="menuClose" type="button">Tutup</button>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Tampilan foto layar penuh">
+    <div class="lightbox__stage" id="lbStage"></div>
+    <button class="lightbox__btn lightbox__close" id="lbClose" type="button" aria-label="Tutup foto">Tutup</button>
+    <button class="lightbox__btn lightbox__prev" id="lbPrev" type="button" aria-label="Foto sebelumnya">‹</button>
+    <button class="lightbox__btn lightbox__next" id="lbNext" type="button" aria-label="Foto berikutnya">›</button>
+    <p class="lightbox__count" id="lbCount" aria-live="polite"></p>
+  </dialog>
+
+  <audio id="bgm" loop preload="none"></audio>
+
+  <script src="js/wedding-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
