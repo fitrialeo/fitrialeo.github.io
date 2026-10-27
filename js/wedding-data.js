@@ -46,7 +46,7 @@ window.WEDDING_DATA = {
   cover: {
     // Taruh berkasnya di assets/photos/foto1.jpeg (potret 4:5, sisi panjang ±1400 px).
     // Bila berkas belum ada, tampil kotak foto kosong (bukan gambar rusak).
-    photo: { src: "assets/photos/foto1.jpeg", alt: "", focus: "50% 30%" },
+    photo: { src: "foto1.jpeg", alt: "", focus: "50% 30%" },
   },
 
   /* ---------- Tanggal pernikahan ---------- */
@@ -108,8 +108,8 @@ window.WEDDING_DATA = {
      namanya di sini). Ukuran asli foto dipertahankan. Bila berkas belum ada,
      tampil kotak foto kosong. Tambah baris untuk menambah foto.              */
   gallery: [
-    { src: "assets/photos/foto2.jpeg", alt: "", ratio: "4/5" },
-    { src: "assets/photos/foto3.jpeg", alt: "", ratio: "4/5" },
+    { src: "foto2.jpeg", alt: "", ratio: "4/5" },
+    { src: "foto3.jpeg", alt: "", ratio: "4/5" },
   ],
 
   /* ---------- Kisah cinta ----------
@@ -145,7 +145,7 @@ window.WEDDING_DATA = {
   /* ---------- Musik latar ----------
      Kosong = tombol musik tidak ditampilkan. Pakai MP3/AAC ≤ 3 MB.          */
   music: {
-    src: "assets/audio/musik.mp3",
+    src: "musik.mp3",
   },
 
   /* ---------- Penutup & berbagi ---------- */
