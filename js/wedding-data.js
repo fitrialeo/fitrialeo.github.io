@@ -145,7 +145,7 @@ window.WEDDING_DATA = {
   /* ---------- Musik latar ----------
      Kosong = tombol musik tidak ditampilkan. Pakai MP3/AAC ≤ 3 MB.          */
   music: {
-    src: "musik.mp3",
+    src: "lagu.mp3",
   },
 
   /* ---------- Penutup & berbagi ---------- */
