@@ -28,14 +28,14 @@ window.WEDDING_DATA = {
     groom: {
       fullName: "Leo Chandra",
       nickname: "Leo",
-      parents: "",             // ← ISI: mis. "Putra pertama dari Bapak ... dan Ibu ..."
+      parents: "Putra kedua dari Bapak Firdaus & Ibu Rastuti",             // ← ISI: mis. "Putra pertama dari Bapak ... dan Ibu ..."
       instagram: "",           // tanpa @, boleh dikosongkan
       // Foto potret opsional. Selama src kosong, kotak foto tidak ditampilkan.
       photo: { src: "", alt: "", focus: "50% 30%" },
     },
     bride: {
       fullName: "Fitria",
-      nickname: "Pipit",
+      nickname: "Fitri",
       parents: "Putri pertama dari Bapak Lukman dan Ibu Maryana",
       instagram: "",
       photo: { src: "", alt: "", focus: "50% 30%" },
