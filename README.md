@@ -33,7 +33,7 @@ Hitung mundur otomatis memakai waktu mulai acara pertama. Setelah acara dimulai 
 
 ## Langkah 2 — Foto, musik, dan pratinjau tautan
 
-**Foto.** Berkas yang dirujuk saat ini: `assets/photos/foto-1.jpg` (cover dan galeri) dan `assets/photos/foto-2.jpg` (galeri). Bila berkasnya belum ada, tampil kotak foto kosong. Nama dan format bisa diubah di `js/wedding-data.js`. Kecilkan dulu sebelum diunggah; WebP atau JPG sama-sama bisa.
+**Foto.** Berkas yang dirujuk saat ini: `assets/photos/foto1.jpeg` (halaman pembuka/cover), serta `assets/photos/foto2.jpeg` dan `assets/photos/foto3.jpeg` (galeri di dalam undangan). Bila berkasnya belum ada, tampil kotak foto kosong. Nama dan format bisa diubah di `js/wedding-data.js`. Kecilkan dulu sebelum diunggah; WebP atau JPG sama-sama bisa.
 
 Panduan ukuran: ubah ke WebP (atau JPG kualitas ±80) dan kecilkan sebelum diunggah. Ukuran yang disarankan:
 
@@ -42,7 +42,7 @@ Panduan ukuran: ubah ke WebP (atau JPG kualitas ±80) dan kecilkan sebelum diung
 
 Alat gratis: [squoosh.app](https://squoosh.app). Foto dimuat bertahap (lazy-load) dan galeri mempertahankan rasio asli foto. Isi `photo.width` dan `photo.height` bila ingin menghindari lompatan tata letak.
 
-**Musik.** Gunakan MP3/AAC ≤ 3 MB dengan hak pakai yang jelas. Musik tidak diputar otomatis saat halaman dimuat. Musik baru mulai ketika tamu menekan "Buka Undangan", dan tamu bisa menjeda lewat tombol di pojok kanan bawah.
+**Musik.** Berkas yang dirujuk saat ini: `assets/audio/musik.mp3`. Gunakan MP3/AAC ≤ 3 MB dengan hak pakai yang jelas. Musik tidak diputar otomatis saat halaman dimuat. Musik baru mulai ketika tamu menekan "Buka Undangan", dan tamu bisa menjeda lewat tombol di pojok kanan bawah.
 
 **Pratinjau tautan WhatsApp.** Crawler WhatsApp tidak menjalankan JavaScript, jadi edit langsung bagian `<head>` di `index.html`:
 
